@@ -1,0 +1,129 @@
+{
+  "_args": [
+    [
+      "react-native-calendars@1.260.0",
+      "/Users/dev/Desktop/rogers/rogers2web"
+    ]
+  ],
+  "_from": "react-native-calendars@1.260.0",
+  "_id": "react-native-calendars@1.260.0",
+  "_inBundle": false,
+  "_integrity": "sha512-PPElud4eq/YhqKU1cTNcAkdFpMmfcN0bY/kc+kEiLKnRaV+a6BICURPqzSSbNxNuD857g8FjOEjVCq+8Wt/8Ng==",
+  "_location": "/react-native-calendars",
+  "_phantomChildren": {
+    "react-is": "16.8.4"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-native-calendars@1.260.0",
+    "name": "react-native-calendars",
+    "escapedName": "react-native-calendars",
+    "rawSpec": "1.260.0",
+    "saveSpec": null,
+    "fetchSpec": "1.260.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-calendars/-/react-native-calendars-1.260.0.tgz",
+  "_spec": "1.260.0",
+  "_where": "/Users/dev/Desktop/rogers/rogers2web",
+  "author": {
+    "name": "Wix.com"
+  },
+  "bugs": {
+    "url": "https://github.com/wix/react-native-calendars/issues"
+  },
+  "dependencies": {
+    "hoist-non-react-statics": "^3.3.1",
+    "lodash": "^4.0.0",
+    "prop-types": "^15.5.10",
+    "xdate": "^0.8.0"
+  },
+  "description": "React Native Calendar Components",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^6.5.1",
+    "eslint-plugin-react": "^7.0.0",
+    "jasmine": "^2.5.2",
+    "react": "16.9.0",
+    "react-native": "0.61.4",
+    "react-native-navigation": "^3.5.1",
+    "semver": "5.x.x",
+    "shell-utils": "1.x.x"
+  },
+  "homepage": "https://github.com/wix/react-native-calendars#readme",
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "react-native-calendars",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wix/react-native-calendars.git"
+  },
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint src/ example/src",
+    "release": "node ./scripts/release.js",
+    "start": "react-native start",
+    "test": "jasmine src/*.spec.js && npm run lint",
+    "xcode": "open ios/CalendarsExample.xcworkspace/"
+  },
+  "version": "1.260.0",
+  "react-native": {
+    "zlib": "browserify-zlib",
+    "console": "console-browserify",
+    "constants": "constants-browserify",
+    "crypto": "react-native-crypto",
+    "dns": "dns.js",
+    "net": "react-native-tcp",
+    "domain": "domain-browser",
+    "http": "@tradle/react-native-http",
+    "https": "https-browserify",
+    "os": "react-native-os",
+    "path": "path-browserify",
+    "querystring": "querystring-es3",
+    "fs": "react-native-level-fs",
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "dgram": "react-native-udp",
+    "stream": "stream-browserify",
+    "timers": "timers-browserify",
+    "tty": "tty-browserify",
+    "vm": "vm-browserify",
+    "tls": false
+  },
+  "browser": {
+    "zlib": "browserify-zlib",
+    "console": "console-browserify",
+    "constants": "constants-browserify",
+    "crypto": "react-native-crypto",
+    "dns": "dns.js",
+    "net": "react-native-tcp",
+    "domain": "domain-browser",
+    "http": "@tradle/react-native-http",
+    "https": "https-browserify",
+    "os": "react-native-os",
+    "path": "path-browserify",
+    "querystring": "querystring-es3",
+    "fs": "react-native-level-fs",
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "dgram": "react-native-udp",
+    "stream": "stream-browserify",
+    "timers": "timers-browserify",
+    "tty": "tty-browserify",
+    "vm": "vm-browserify",
+    "tls": false
+  }
+}
